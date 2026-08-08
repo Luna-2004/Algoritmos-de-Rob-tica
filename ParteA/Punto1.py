@@ -1,3 +1,6 @@
+#Realice un programa que sume, reste, multiplique (producto punto y producto cruz) y divida dos
+#vectores previamente inicializados.
+
 import numpy as np
 
 # Vectores (3 componentes para el producto cruz)
