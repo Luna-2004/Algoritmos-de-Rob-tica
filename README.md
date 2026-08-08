@@ -20,7 +20,7 @@
 **Algoritmos de Robótica - E.P.1 - 02128-2663**
 
 ### 👨‍🏫 Profesor
-**FABIAN BARRERA PRIETO**
+*FABIAN BARRERA PRIETO*
 ---
 
 ### 🔗 Enlace al curso
