@@ -8,11 +8,13 @@
 
 | Nombre | Código |
 |---|---:|
+| **Luna Stephanie Mahecha Alarcon** | 127628 |
+| **Julieth Marlen Diaz Veloza** | 128515 |
+| **Madeleyny Alayon Mosquera** | 129536 |
 | **Felipe Fonseca Hurtado** | 129550 |
 | **Santiago Fonseca Hurtado** | 129551 |
 | **Andres Felipe Carrillo Caballero** | 129179 |
-| **Luna Stephanie Mahecha Alarcon** | 127628 |
-| **Julieth Marlen Diaz Veloza** | 128515 |
+
 
 ---
 
