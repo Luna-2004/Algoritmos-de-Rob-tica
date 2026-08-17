@@ -6,9 +6,11 @@
 def resistencia_pt100(temperatura):
     
     R0 = 100.0          # Resistencia a 0°C
+    
+    #Coeficientes calculados a partir de constantes empíricas del platino
     A = 3.9083e-3
     B = -5.775e-7
-    C = -4.183e-12       # Solo se usa para T < 0
+    C = -4.183e-12      # Solo se usa para T < 0
 
     if temperatura >= 0:
         R = R0 * (1 + A * temperatura + B * temperatura**2)
