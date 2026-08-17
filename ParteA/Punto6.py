@@ -4,14 +4,6 @@
 import math
 
 def fuerza_cilindro(presion, diametro_piston, diametro_vastago):
-    """
-    Calcula la fuerza de avance y retroceso de un cilindro
-    neumático de doble efecto.
-
-    presion: en Pa (o kPa, según unidades consistentes)
-    diametro_piston: diámetro del pistón en metros
-    diametro_vastago: diámetro del vástago en metros
-    """
     area_piston = math.pi * (diametro_piston ** 2) / 4
     area_vastago = math.pi * (diametro_vastago ** 2) / 4
     area_anular = area_piston - area_vastago  # área efectiva en el retroceso
