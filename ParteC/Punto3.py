@@ -2,7 +2,7 @@
 # El usuario ingresa por teclado el #valor de voltaje (V), capacitancia (𝜇𝐹) y resistencia (Ω). Posteriormente realice en Python la gráfica.
 
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 print("\nCIRCUITO RC: CARGA Y DESCARGA")
 
