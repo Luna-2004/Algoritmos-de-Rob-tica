@@ -1,10 +1,12 @@
-import numpy as np
+#Implemente la ecuación de carga y descarga para un circuito RC.
+# El usuario ingresa por teclado el #valor de voltaje (V), capacitancia (𝜇𝐹) y resistencia (Ω). Posteriormente realice en Python la gráfica.
+
 import matplotlib.pyplot as plt
 
-# CIRCUITO RC: CARGA Y DESCARGA
+
 print("\nCIRCUITO RC: CARGA Y DESCARGA")
 
-# Entrada de datos
+
 try:
     V = float(input("Ingrese el voltaje de la fuente V (voltios): "))
     C_uF = float(input("Ingrese la capacitancia C (microfaradios, µF): "))
@@ -26,10 +28,9 @@ t = np.linspace(0, 5 * tau, 1000)
 Vc_carga = V * (1 - np.exp(-t / tau))
 Vc_descarga = V * np.exp(-t / tau)
 
-# Mostrar constante de tiempo
+
 print(f"\nConstante de tiempo tau = R*C = {tau:.6f} s")
 
-# Crear las dos gráficas
 fig, axs = plt.subplots(1, 2, figsize=(13, 5.5))
 
 # Gráfica de carga
@@ -52,7 +53,7 @@ axs[1].set_xlabel("Tiempo (s)")
 axs[1].set_ylabel("Voltaje Vc(t) (V)")
 axs[1].grid(True, alpha=0.4)
 
-# Título general
+
 plt.suptitle(
     f"Circuito RC | V={V} V, C={C_uF} µF, "
     f"R={R} Ω, tau={tau:.4f} s"
@@ -60,8 +61,6 @@ plt.suptitle(
 
 plt.tight_layout()
 
-# Guardar la gráfica
-plt.savefig("circuito_RC.png", dpi=150)
 
-# Mostrar la gráfica
+plt.savefig("circuito_RC.png", dpi=150)
 plt.show()
